@@ -1,0 +1,66 @@
+focus_tree = {
+	id = PRCFocusTree_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 99
+			tag = MST
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 0
+		y = 1700
+	}
+	focus = {
+		id = MST_what_do_1
+		icon = MST_what_do_1_gfx
+		cost = 7
+		x = 10
+		y = 0
+		available = {
+			has_idea = PRC_chinese_civil_war_idea
+		}
+		completion_reward = { 
+			add_stability = 0.1
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = MST_The_Hope_1
+		icon = GFX_surrender_tiny_flag
+		cost = 7
+		relative_position_id = MST_what_do_1
+		prerequisite = {
+			focus = MST_what_do_1
+		}
+		x = 0
+		y = 1
+		completion_reward = { 
+			create_wargoal = {
+				target = NMA
+				type = take_state_focus
+				generator = { 48 }
+			}
+		}
+	}
+	focus = {
+		id = MST_LIGHT_0
+		icon = GFX_surrender_tiny_flag
+		relative_position_id = MST_The_Hope_1
+		cost = 8
+		x = 0
+		y = 1
+		available = {
+		
+		}
+		prerequisite = {
+			focus = MST_The_Hope_1
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.1
+			country_event = prc_switch.1
+		}
+	}
+} 
