@@ -1,20 +1,38 @@
-add_namespace = prc_switch
+add_namespace = MST_event_flames_of_vengeance
 country_event = {
-    id = prc_switch.1
-    title = prc_switch.1.t
-    desc = prc_switch.1.d
+    id = MST_event_flames_of_vengeance.1
+    title = MST_event_flames_of_vengeance.1.t
+    desc = MST_event_flames_of_vengeance.1.d
     
     trigger = {
         tag = PRC
         has_idea = PRC_chinese_civil_war_idea
+        NOT = {
+            has_idea = MST_national_spirit_flames_of_vengeance
+        }
     }
     
     option = {
-        name = prc_switch.f
-        set_cosmetic_tag = MST
-    }
-    option = {
-        name = prc_switch.s
-        set_cosmetic_tag = SHA 
+        name = MST_event_flames_of_vengeance.f
+        load_focus_tree = PRCFocusTree_0
+        add_ideas = MST_national_spirit_flames_of_vengeance
     }
 }
+add_namespace = MST_event_flames_of_vengeance
+country_event = {
+    id = 1.1
+    title = 1.t
+    desc = 1.d
+
+    trigger = {
+        always = no
+    }
+
+    option = {
+        name = 1.f
+        PRC = { add_to_faction = MST}
+        PRC = { add_to_faction = SHA}
+        PRC = { add_to_faction = APF}
+    }
+}
+

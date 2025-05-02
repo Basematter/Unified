@@ -1,37 +1,18 @@
 spriteTypes = {
 	spriteType = {
 		name = MST_what_do_1_gfx
-		textureFile = "gfx/goals/1.dds"
+		textureFile = "gfx/goals/MST_broken_order.dds"
 	}
 	SpriteType = {
 		name = MST_what_do_1_gfx_shine
-		texturefile = "gfx/goals/1.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/goals/1.dds"
-			animationtexturefile = "gfx/goals/1.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/goals/1.dds"
-			animationtexturefile = "gfx/goals/1.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
+		texturefile = "gfx/goals/MST_broken_order.dds"
+	}
+	spriteType = {
+		name = MST_GFX_national_spirit_flames_of_vengeance
+		textureFile = "gfx/goals/MST_national_spirit_flames_of_vengeance.dds"
+	}
+	spriteType = {
+		name = MST_GFX_national_spirit_flames_of_vengeance
+		textureFile = "gfx/ideas/MST_national_spirit_flames_of_vengeance.dds"
 	}
 }

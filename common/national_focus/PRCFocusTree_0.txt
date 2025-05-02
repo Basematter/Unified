@@ -2,10 +2,10 @@ focus_tree = {
 	id = PRCFocusTree_0
 	country = {
 		factor = 0
-		modifier = {
-			add = 99
-			tag = MST
-		}
+#		modifier = {
+#			add = 99
+#			tag = PRC
+#		}
 	}
 	default = no
 	continuous_focus_position = {
@@ -13,7 +13,7 @@ focus_tree = {
 		y = 1700
 	}
 	focus = {
-		id = MST_what_do_1
+		id = MST_broken_order
 		icon = MST_what_do_1_gfx
 		cost = 7
 		x = 10
@@ -22,17 +22,17 @@ focus_tree = {
 			has_idea = PRC_chinese_civil_war_idea
 		}
 		completion_reward = { 
-			add_stability = 0.1
+			add_stability = -0.1
 			add_political_power = 120
 		}
 	}
 	focus = {
-		id = MST_The_Hope_1
+		id = MST_crawling_in_ashes
 		icon = GFX_surrender_tiny_flag
 		cost = 7
-		relative_position_id = MST_what_do_1
+		relative_position_id = MST_broken_order
 		prerequisite = {
-			focus = MST_what_do_1
+			focus = MST_broken_order
 		}
 		x = 0
 		y = 1
@@ -45,9 +45,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = MST_LIGHT_0
+		id = MST_who_betrayed_us
 		icon = GFX_surrender_tiny_flag
-		relative_position_id = MST_The_Hope_1
+		relative_position_id = MST_crawling_in_ashes
 		cost = 8
 		x = 0
 		y = 1
@@ -55,12 +55,28 @@ focus_tree = {
 		
 		}
 		prerequisite = {
-			focus = MST_The_Hope_1
+			focus = MST_crawling_in_ashes
 		}
 		completion_reward = {
 			add_political_power = 150
 			add_stability = 0.1
-			country_event = prc_switch.1
+			country_event = MST_event_flames_of_vengeance.1
+			
+		}
+	}
+	focus = {
+		id = MST_where_do_we_go
+		icon = GFX_surrender_tiny_flag
+		cost = 7
+		x = 0
+		y = 1
+		relative_position_id = MST_who_betrayed_us
+		prerequisite = {
+			focus = MST_who_betrayed_us
+		}
+		completion_reward = { 
+			create_faction = MST_faction_national_salvation_league
+			country_event = 1.1
 		}
 	}
 } 

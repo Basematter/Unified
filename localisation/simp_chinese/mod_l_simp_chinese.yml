@@ -1,8 +1,22 @@
 ﻿l_simp_chinese:
-  MST_what_do_1: "我们该做什么！"
-  MST_what_do_1_desc: "神州大地现四分五裂，为了我们的未来，为了我们的下一代，找到希望，\n向前进！"
-  MST_The_Hope_1: "希望之光"
-  MST_LIGHT_0: "照向神州大地"
-  prc_switch.1: "§R我该如何选择§"
-  prc_switch.1.t: "§R我该如何选择§"
-  prc_switch.1.t: "中国的未来在你的手中\n只要点一下\n希望在你手中"
+  MST_broken_order: "破碎的秩序"
+  MST_broken_order_desc: "国家已成废墟，\n希望如灰烬般飘零。"
+  MST_crawling_in_ashes: "在灰烬中爬行"
+  MST_crawling_in_ashes_desc: "但我们如复仇的凤凰，我们拖着残破的身躯穿越灰烬荒原。\n每道伤疤都是见证，每次呼吸都是复仇的誓言。§R\n烈火或许已灭，但我们的仇恨永恒燃烧！§"
+  MST_who_betrayed_us: "谁背叛了我们"
+  MST_who_betrayed_us_desc: "捅在我们背上的刀来自曾称兄道弟之人。\n秘密集团和外国间谍已渗透我们的队伍。\n每句低语都是§R谎言§W，每个笑容都是§R面具§W。我们将揪出叛徒，§R不论生死§W。"
+  MST_where_do_we_go: "我们该何去何从"
+  MST_where_do_we_go_desc: "前方的道路被战争与疑虑的迷雾笼罩。每条路都通向毁灭，但停滞即是死亡。是拥抱内心的黑暗？还是找回失落的人性？这个选择将决定我们的传奇...或是湮灭！"
+
+#events
+  MST_event_flames_of_vengeance.1.t: "复仇之火"
+  MST_event_flames_of_vengeance.1.d: "仁慈的时代已经结束。现在只剩下净化的火焰！\n\n让敌人的城市燃烧，让他们的河流被灰烬染黑。\n\n我们将成为上帝惩罚这个忘恩世界的天灾！\n\n§R叛徒必须死！压迫者必须死！§"
+  MST_event_flames_of_vengeance.f: "无人可赦！"
+
+#ideas
+  MST_national_spirit_flames_of_vengeance: "复仇之火"
+  MST_national_spirit_flames_of_vengeance_desc: "复仇之火在每个公民心中燃烧！我们将用民族愤怒之火净化叛徒，烧焦敌人脚下的土地，用钢铁淹没他们的首都！§R不留俘虏！不留仁慈！"
+
+#teams
+  MST_faction_national_salvation_league: "救国联盟"
+  MST_faction_national_salvation_league_desc: "以血与复仇为盟，这个被剥夺者的联盟将清洗所有叛徒和外国走狗！通过烈火与钢铁，我们必将夺回家园的荣耀！"
