@@ -79,4 +79,10 @@ focus_tree = {
 			country_event = 1.1
 		}
 	}
+ focus ＝ ｛
+    id ＝ MST_pot
+    icon ＝ 
+    cost ＝ 7
+    completion_reward ＝ 
+  ｝
 } 
