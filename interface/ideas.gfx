@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-		name = MST_GFX_national_spirit_flames_of_vengeance
+		name = GFX_idea_MST_GFX_national_spirit_flames_of_vengeance
 		textureFile = "gfx/ideas/MST_national_spirit_flames_of_vengeance.dds"
 	}
 }

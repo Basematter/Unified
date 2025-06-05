@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/goals/MST_broken_order.dds"
 	}
 	spriteType = {
+		name = GFX_MST_crawling_in_ashes
+		textureFile = "gfx/goals/MST_crawling_in_ashes.dds"
+	}
+	spriteType = {
 		name = MST_GFX_national_spirit_flames_of_vengeance
 		textureFile = "gfx/goals/MST_national_spirit_flames_of_vengeance.dds"
 	}
